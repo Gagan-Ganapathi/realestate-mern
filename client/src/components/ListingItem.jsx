@@ -27,7 +27,7 @@ export default function ListingItem(props) {
             {props.listing.description}
           </p>
           <p className='text-slate-500 mt-2 font-semibold '>
-            $
+          ₹
             {props.listing.offer
               ? props.listing.discountPrice.toLocaleString('en-US')
               : props.listing.regularPrice.toLocaleString('en-US')}
